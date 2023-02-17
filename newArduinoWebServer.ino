@@ -61,6 +61,9 @@ else
 {
 
 client.println("&lt;h3&gt;OFF&lt;/h3&gt;");
+  delay(1);
+          //stopping client
+          client.stop();
 
 }
 
